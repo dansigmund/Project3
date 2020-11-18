@@ -12,12 +12,9 @@ $states = readStates('data/states.txt');
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-red.min.css" />
   <link rel="stylesheet" href="css/styles.css">
-  <script src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
   <script src="https://code.getmdl.io/1.1.3/material.min.js"></script>
-  <script src="js/jquery.sparkline.2.1.2.js"></script>
   <script type="text/javascript"></script>
 
 </head>
@@ -93,8 +90,8 @@ $states = readStates('data/states.txt');
                   <div class="mdl-card__supporting-text">
 
                     <h4><?php echo "$name" ?></h4>
-                    <?php echo "Capitol: $capitol" ?><br>
                     <?php echo "Population: $population" ?><br>
+                    <?php echo "Capitol: $capitol" ?><br>
                     <?php echo "Winning Candidate: $candidate" ?><br>
                     <?php echo "Political Party: $party" ?><br>
                     <?php echo "Electoral College Votes: $numVotes" ?>
