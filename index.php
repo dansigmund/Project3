@@ -20,6 +20,11 @@ $states = readStates('data/states.txt');
   <script src="js/jquery.sparkline.2.1.2.js"></script>
   <script type="text/javascript"></script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgpfxdQ0Ep_nieNjV64u4yXWeSFHAT4BE&callback=initMap&libraries=&v=weekly" defer></script>
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <script src="./index.js"></script>
+
 </head>
 
 <body>
@@ -104,21 +109,7 @@ $states = readStates('data/states.txt');
                     <h2 class="mdl-card__title-text">State Map</h2>
                   </div>
                   <div class="mdl-card__supporting-text">
-                  <html>
-  <head>
-    <title>Simple Map</title>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
-      defer
-    ></script>
-    <link rel="stylesheet" type="text/css" href="./style.css" />
-    <script src="./index.js"></script>
-  </head>
-  <body>
-    <div id="map"></div>
-  </body>
-</html>
+                      <div id="map"></div>
                   </div>
                 </div>
             <?php
