@@ -20,11 +20,6 @@ $states = readStates('data/states.txt');
   <script src="js/jquery.sparkline.2.1.2.js"></script>
   <script type="text/javascript"></script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgpfxdQ0Ep_nieNjV64u4yXWeSFHAT4BE&callback=initMap&libraries=&v=weekly" defer></script>
-  <link rel="stylesheet" type="text/css" href="./style.css" />
-  <script src="./index.js"></script>
-
 </head>
 
 <body>
@@ -87,6 +82,8 @@ $states = readStates('data/states.txt');
                 $candidate = $requestedState['candidate'];
                 $party = $requestedState['party'];
                 $numVotes = $requestedState['numVotes'];
+                $urlName = str_replace(" ", "+", $name);
+                $mapURL = "https://maps.googleapis.com/maps/api/staticmap?center=$urlName&zoom=6&size=500x500&maptype=roadmap&key=AIzaSyDgpfxdQ0Ep_nieNjV64u4yXWeSFHAT4BE";
             ?>
                 <div class="mdl-cell mdl-cell--12-col card-lesson mdl-card  mdl-shadow--2dp">
                   <div class="mdl-card__title mdl-color--red mdl-color-text--white">
@@ -109,7 +106,9 @@ $states = readStates('data/states.txt');
                     <h2 class="mdl-card__title-text">State Map</h2>
                   </div>
                   <div class="mdl-card__supporting-text">
-                      <div id="map"></div>
+
+                    <?php echo "<img src=$mapURL>" ?>
+
                   </div>
                 </div>
             <?php
