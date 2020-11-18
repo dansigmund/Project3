@@ -1,50 +1,51 @@
-1;Alabama;Montgomery;Trump;Republican;4,858,979; 9
-2;Alaska;Juneau;Trump;Republican;738,432; 3
-3;Arizona;Phoenix;Trump;Republican;6,828,065; 11
-4;Arkansas; Little Rock;Trump;Republican;6,828,065; 6
-5;California; Sacramento;Clinton;Democrat;39,144,818; 55
-6;Colorado; Denver;Clinton;Democrat;5,456,574; 9
-7;Connecticut; Hartford;Clinton;Democrat;3,590,886; 7
-8;Delaware; Dover;Clinton;Democrat;945,934; 3
-9;Florida; Tallahassee;Trump;Republican;20,271,272; 29
-10;Georgia; Atlanta;Trump;Republican;10,214,860; 16
-11;Hawaii; Honolulu;Clinton;Democrat;1,431,603; 4
-12;Idaho; Boise;Trump;Republican;1,654,930; 4
-13;Illinois; Springfield;Clinton;Democrat;12,859,995; 20
-14;Indiana; Indianapolis;Trump;Republican;6,619,680; 11
-15;Iowa; Des Moines;Trump;Republican;3,123,899; 6
-16;Kansas; Topeka;Trump;Republican;2,911,641; 6
-17;Kentucky; Frankfurt;Trump;Republican;4,425,092; 8
-18;Louisiana; Baton Rouge;Trump;Republican;4,670,724; 8
-19;Maine; Augusta; Clinton;Democrat;1,329,328; 4
-20;Maryland; Annapolis;Clinton;Democrat; 6,006,401; 10
-21;Massachusetts; Boston;Clinton;Democrat; 6,794,422; 11
-22;Michigan; Lansig;Trump;Republican; 9,922,576; 16
-23;Minnesota; Saint Paul;Clinton;Democrat; 5,489,594; 10
-24;Mississippi; Jackson; Trump;Republican;2,992,333; 6
-25;Missouri; Jefferson City;Trump;Republican; 6,083,672; 10
-26;Montana; Helena; Trump;Republican;1,032,949; 3
-27;Nebraska; Lincoln; Trump;Republican;1,896,190; 5
-28;Nevada; Carson City; Clinton;Democrat;2,890,845; 6
-29;New Hampshire; Concord; Clinton;Democrat;1,330,608; 4
-30;New Jersey; Trenton; Clinton;Democrat;8,958,013; 14
-31;New Mexico; Santa Fe; Clinton;Democrat;2,085,109; 5
-32;New York; Albany;Clinton;Democrat; 19,795,791; 29
-33;North Carolina; Raleigh; Trump;Republican;10,042,802; 15
-34;North Dakota; Bismark;Trump;Republican; 756,927; 3
-35;Ohio; Columbus;Trump;Republican; 11,613,423; 18
-36;Oklahoma; Oklahoma City; Trump;Republican; 3,911,338; 7
-37;Oregon; Salem; Clinton;Democrat;4,028,977; 7
-38;Pennsylvania; Harrisburg;Trump;Republican; 12,802,503; 20
-39;Rhode Island;Providence; Clinton;Democrat;1,056,298; 4
-40;South Carolina; Columbia;Trump;Republican; 4,896,146; 9
-41;South Dakota; Pierre;Trump;Republican; 858,469; 3
-42;Tennessee; Nashville;Trump;Republican; 6,600,299; 11
-43;Texas; Austin;Trump;Republican; 27,469,114; 38
-44;Utah; Salt Lake City;Trump;Republican; 2,995,919; 6
-45;Vermont; Montpelier; Clinton;Democrat;626,042; 3
-46;Virginia; Richmond; Clinton;Democrat;8,382,993; 13
-47;Washington; Olympia; Clinton;Democrat;7,170,351; 12
-48;West Virginia; Charleston; Trump;Republican; 1,844,128; 5
-49;Wisconsin; Madison;Trump;Republican; 5,771,337; 10
-50;Wyoming; Cheyenne;Trump;Republican; 586,107; 3
+0;Alabama;Montgomery;Trump;Republican;4,858,979; 9;62.083
+1;Alaska;Juneau;Trump;Republican;738,432; 3; 51.282
+2;Arizona;Phoenix;Trump;Republican;6,828,065; 11;48.083
+3;Arkansas; Little Rock;Trump;Republican;6,828,065; 6;60.574
+4;California; Sacramento;Clinton;Democrat;39,144,818; 55;61.482
+5;Colorado; Denver;Clinton;Democrat;5,456,574; 9;48.157
+6;Connecticut; Hartford;Clinton;Democrat;3,590,886; 7;54.566
+7;District of Columbia; District of Columbia;Clinton;Democrat;684,489; 3; 90.864
+8;Delaware; Dover;Clinton;Democrat;945,934; 3;53.086
+9;Florida; Tallahassee;Trump;Republican;20,271,272; 29;48.601
+10;Georgia; Atlanta;Trump;Republican;10,214,860; 16;50.444
+11;Hawaii; Honolulu;Clinton;Democrat;1,431,603; 4;62.221
+12;Idaho; Boise;Trump;Republican;1,654,930; 4;59.246
+13;Illinois; Springfield;Clinton;Democrat;12,859,995; 20;55.247
+14;Indiana; Indianapolis;Trump;Republican;6,619,680; 11; 56.468
+15;Iowa; Des Moines;Trump;Republican;3,123,899; 6; 51.147
+16;Kansas; Topeka;Trump;Republican;2,911,641; 6; 56.164
+17;Kentucky; Frankfurt;Trump;Republican;4,425,092; 8;62.520
+18;Louisiana; Baton Rouge;Trump;Republican;4,670,724; 8; 58.089
+19;Maine; Augusta; Clinton;Democrat;1,329,328; 4;47.830
+20;Maryland; Annapolis;Clinton;Democrat; 6,006,401; 10;60.326
+21;Massachusetts; Boston;Clinton;Democrat; 6,794,422; 11;60.005
+22;Michigan; Lansig;Trump;Republican; 9,922,576; 16;47.252
+23;Minnesota; Saint Paul;Clinton;Democrat; 5,489,594; 10;46.442
+24;Mississippi; Jackson; Trump;Republican;2,992,333; 6;57.858
+25;Missouri; Jefferson City;Trump;Republican; 6,083,672; 10;56.390
+26;Montana; Helena; Trump;Republican;1,032,949; 3;55.645
+27;Nebraska; Lincoln; Trump;Republican;1,896,190; 5;58.747
+28;Nevada; Carson City; Clinton;Democrat;2,890,845; 6;47.918
+29;New Hampshire; Concord; Clinton;Democrat;1,330,608; 4;46.826
+30;New Jersey; Trenton; Clinton;Democrat;8,958,013; 14;54.989
+31;New Mexico; Santa Fe; Clinton;Democrat;2,085,109; 5;48.256
+32;New York; Albany;Clinton;Democrat; 19,795,791; 29;59.006
+33;North Carolina; Raleigh; Trump;Republican;10,042,802; 15;49.828
+34;North Dakota; Bismark;Trump;Republican; 756,927; 3;62.956
+35;Ohio; Columbus;Trump;Republican; 11,613,423; 18;51.314
+36;Oklahoma; Oklahoma City; Trump;Republican; 3,911,338; 7;65.323
+37;Oregon; Salem; Clinton;Democrat;4,028,977; 7;50.072
+38;Pennsylvania; Harrisburg;Trump;Republican; 12,802,503; 20;48.174
+39;Rhode Island;Providence; Clinton;Democrat;1,056,298; 4;54.407
+40;South Carolina; Columbia;Trump;Republican; 4,896,146; 9;54.939
+41;South Dakota; Pierre;Trump;Republican; 858,469; 3;61.531
+42;Tennessee; Nashville;Trump;Republican; 6,600,299; 11;60.722
+43;Texas; Austin;Trump;Republican; 27,469,114; 38;52.235
+44;Utah; Salt Lake City;Trump;Republican; 2,995,919; 6;45.053
+45;Vermont; Montpelier; Clinton;Democrat;626,042; 3;56.678
+46;Virginia; Richmond; Clinton;Democrat;8,382,993; 13;49.751
+47;Washington; Olympia; Clinton;Democrat;7,170,351; 12;52.539
+48;West Virginia; Charleston; Trump;Republican; 1,844,128; 5;67.852
+49;Wisconsin; Madison;Trump;Republican; 5,771,337; 10;47.218
+50;Wyoming; Cheyenne;Trump;Republican; 586,107; 3;68.173
