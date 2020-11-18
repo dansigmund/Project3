@@ -7,7 +7,7 @@ $states = readStates('data/states.txt');
 
 <head>
 
-  <title>Election 2016</title>
+  <title>2016 Election Results</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -32,7 +32,7 @@ $states = readStates('data/states.txt');
               <h2 class="mdl-card__title-text">States</h2>
             </div>
             <div class="mdl-card__supporting-text">
-              <table class="mdl-data-table  mdl-shadow--2dp">
+              <table class="mdl-data-table mdl-shadow--2dp">
                 <thead>
                   <tr>
                     <th class="mdl-data-table__cell--non-numeric">State</th>
@@ -79,11 +79,12 @@ $states = readStates('data/states.txt');
                 $candidate = $requestedState['candidate'];
                 $party = $requestedState['party'];
                 $numVotes = $requestedState['numVotes'];
+                $winPercent = "%" . $requestedState['winPercent'];
                 $urlName = str_replace(" ", "+", $name);
                 $urlCapitol = str_replace(" ", "+", $capitol);
                 $mapURL = "https://maps.googleapis.com/maps/api/staticmap?center=$urlName&zoom=6&size=500x500&maptype=roadmap&region=US&markers=color:red%7C$urlCapitol&key=AIzaSyDgpfxdQ0Ep_nieNjV64u4yXWeSFHAT4BE";
             ?>
-                <div class="mdl-cell mdl-cell--12-col card-lesson mdl-card  mdl-shadow--2dp">
+                <div class="mdl-cell mdl-cell--12-col card-lesson mdl-card  mdl-shadow--2dp" id="rightTop">
                   <div class="mdl-card__title mdl-color--red mdl-color-text--white">
                     <h2 class="mdl-card__title-text">State Details</h2>
                   </div>
@@ -94,12 +95,13 @@ $states = readStates('data/states.txt');
                     <?php echo "Capitol: $capitol" ?><br>
                     <?php echo "Winning Candidate: $candidate" ?><br>
                     <?php echo "Political Party: $party" ?><br>
+                    <?php echo "Percent of Votes Received: $winPercent" ?><br>
                     <?php echo "Electoral College Votes: $numVotes" ?>
 
                   </div>
                 </div>
 
-                <div class="mdl-cell mdl-cell--12-col card-lesson mdl-card  mdl-shadow--2dp">
+                <div class="mdl-cell mdl-cell--12-col card-lesson mdl-card  mdl-shadow--2dp" id="rightBottom">
                   <div class="mdl-card__title mdl-color--red mdl-color-text--white">
                     <h2 class="mdl-card__title-text">State Map</h2>
                   </div>

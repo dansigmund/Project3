@@ -21,6 +21,7 @@ function readStates($filename) {
       $aState['party'] = utf8_encode($splitcontents[4]);
       $aState['population'] = utf8_encode($splitcontents[5]);
       $aState['numVotes'] = utf8_encode($splitcontents[6]);
+      $aState['winPercent'] = utf8_encode($splitcontents[7]);
 
       // add customer to array of customers
       $states[$aState['id']] = $aState;
