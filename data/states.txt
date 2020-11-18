@@ -1,0 +1,50 @@
+1;Alabama;Montgomery;4,858,979; 9
+2;Alaska;Juneau;738,432; 3
+3;Arizona;Phoenix;6,828,065; 11
+4;Arkansas; Little Rock;6,828,065; 6
+5;California; Sacramento;39,144,818; 55
+6;Colorado; Denver;5,456,574; 9
+7;Connecticut; Hartford;3,590,886; 7
+8;Delaware; Dover;945,934; 3
+9;Florida; Tallahassee;20,271,272; 29
+10;Georgia; Atlanta;10,214,860; 16
+11;Hawaii; Honolulu;1,431,603; 4
+12;Idaho; Boise;1,654,930; 4
+13;Illinois; Springfield;12,859,995; 20
+14;Indiana; Indianapolis;6,619,680; 11
+15;Iowa; Des Moines;3,123,899; 6
+16;Kansas; Topeka;2,911,641; 6
+17;Kentucky; Frankfurt;4,425,092; 8
+18;Louisiana; Baton Rouge;4,670,724; 8
+19;Maine; Augusta; 1,329,328; 4
+20;Maryland; Annapolis; 6,006,401; 10
+21;Massachusetts; Boston; 6,794,422; 11
+22;Michigan; Lansig; 9,922,576; 16
+23;Minnesota; Saint Paul; 5,489,594; 10
+24;Mississippi; Jackson; 2,992,333; 6
+25;Missouri; Jefferson City; 6,083,672; 10
+26;Montana; Helena; 1,032,949; 3
+27;Nebraska; Lincoln; 1,896,190; 5
+28;Nevada; Carson City; 2,890,845; 6
+29;New Hampshire; Concord; 1,330,608; 4
+30;New Jersey; Trenton; 8,958,013; 14
+31;New Mexico; Santa Fe; 2,085,109; 5
+32;New York; Albany; 19,795,791; 29
+33;North Carolina; Raleigh; 10,042,802; 15
+34;North Dakota; Bismark; 756,927; 3
+35;Ohio; Columbus; 11,613,423; 18
+36;Oklahoma; Oklahoma City; 3,911,338; 7
+37;Oregon; Salem; 4,028,977; 7
+38;Pennsylvania; Harrisburg; 12,802,503; 20
+39;Rhode Island;Providence; 1,056,298; 4
+40;South Carolina; Columbia; 4,896,146; 9
+41;South Dakota; Pierre; 858,469; 3
+42;Tennessee; Nashville; 6,600,299; 11
+43;Texas; Austin; 27,469,114; 38
+44;Utah; Salt Lake City; 2,995,919; 6
+45;Vermont; Montpelier; 626,042; 3
+46;Virginia; Richmond; 8,382,993; 13
+47;Washington; Olympia; 7,170,351; 12
+48;West Virginia; Charleston; 1,844,128; 5
+49;Wisconsin; Madison; 5,771,337; 10
+50;Wyoming; Cheyenne; 586,107; 3
