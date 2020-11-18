@@ -16,9 +16,9 @@ function readStates($filename) {
       
       $aState['id'] = $splitcontents[0];
       $aState['name'] = utf8_encode($splitcontents[1]);
-      $aState['candidate'] = utf8_encode($splitcontents[2]);
-      $aState['party'] = utf8_encode($splitcontents[3]);
-      $aState['capitol'] = utf8_encode($splitcontents[4]);
+      $aState['capitol'] = utf8_encode($splitcontents[2]);
+      $aState['candidate'] = utf8_encode($splitcontents[3]);
+      $aState['party'] = utf8_encode($splitcontents[4]);
       $aState['population'] = utf8_encode($splitcontents[5]);
       $aState['numVotes'] = utf8_encode($splitcontents[6]);
 
