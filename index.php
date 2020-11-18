@@ -104,35 +104,21 @@ $states = readStates('data/states.txt');
                     <h2 class="mdl-card__title-text">State Map</h2>
                   </div>
                   <div class="mdl-card__supporting-text">
-                    <?php
-
-                    $orders = readOrders($_GET['state'], 'data/orders.txt');
-                    if (is_null($orders)) {
-                      echo 'No orders for ' . $requestedCustomer['name'];
-                    } else {
-                    ?>
-
-                      <table class="mdl-data-table  mdl-shadow--2dp">
-                        <thead>
-                          <tr>
-                            <th class="mdl-data-table__cell--non-numeric">Cover</th>
-                            <th class="mdl-data-table__cell--non-numeric">ISBN</th>
-                            <th class="mdl-data-table__cell--non-numeric">Title</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-
-                          <?php foreach ($orders as $ord) {
-                            echo '<tr>';
-                            echo '<td><img src="images/tinysquare/' . $ord['isbn'] . '.jpg"></td>';
-                            echo '<td>' . $ord['isbn'] . '</td>';
-                            echo '<td class="mdl-data-table__cell--non-numeric">' . $ord['isbn'] . $ord['title'] . '</td>';
-                            echo '</tr>    ';
-                          } ?>
-
-                        </tbody>
-                      </table>
-                    <?php  } ?>
+                  <html>
+  <head>
+    <title>Simple Map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <div id="map"></div>
+  </body>
+</html>
                   </div>
                 </div>
             <?php
