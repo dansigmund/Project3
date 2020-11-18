@@ -83,7 +83,8 @@ $states = readStates('data/states.txt');
                 $party = $requestedState['party'];
                 $numVotes = $requestedState['numVotes'];
                 $urlName = str_replace(" ", "+", $name);
-                $mapURL = "https://maps.googleapis.com/maps/api/staticmap?center=$urlName&zoom=6&size=500x500&maptype=roadmap&key=AIzaSyDgpfxdQ0Ep_nieNjV64u4yXWeSFHAT4BE";
+                $urlCapitol = str_replace(" ", "+", $capitol);
+                $mapURL = "https://maps.googleapis.com/maps/api/staticmap?center=$urlName&zoom=6&size=500x500&maptype=roadmap&region=US&markers=color:red%7C$urlCapitol&key=AIzaSyDgpfxdQ0Ep_nieNjV64u4yXWeSFHAT4BE";
             ?>
                 <div class="mdl-cell mdl-cell--12-col card-lesson mdl-card  mdl-shadow--2dp">
                   <div class="mdl-card__title mdl-color--red mdl-color-text--white">
