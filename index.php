@@ -32,7 +32,7 @@ $states = readStates('data/states.txt');
               <h2 class="mdl-card__title-text">States</h2>
             </div>
             <div class="mdl-card__supporting-text">
-              <table class="mdl-data-table  mdl-shadow--2dp">
+              <table class="mdl-data-table mdl-shadow--2dp">
                 <thead>
                   <tr>
                     <th class="mdl-data-table__cell--non-numeric">State</th>
@@ -83,7 +83,7 @@ $states = readStates('data/states.txt');
                 $urlCapitol = str_replace(" ", "+", $capitol);
                 $mapURL = "https://maps.googleapis.com/maps/api/staticmap?center=$urlName&zoom=6&size=500x500&maptype=roadmap&region=US&markers=color:red%7C$urlCapitol&key=AIzaSyDgpfxdQ0Ep_nieNjV64u4yXWeSFHAT4BE";
             ?>
-                <div class="mdl-cell mdl-cell--12-col card-lesson mdl-card  mdl-shadow--2dp">
+                <div class="mdl-cell mdl-cell--12-col card-lesson mdl-card  mdl-shadow--2dp" id="rightTop">
                   <div class="mdl-card__title mdl-color--red mdl-color-text--white">
                     <h2 class="mdl-card__title-text">State Details</h2>
                   </div>
@@ -99,7 +99,7 @@ $states = readStates('data/states.txt');
                   </div>
                 </div>
 
-                <div class="mdl-cell mdl-cell--12-col card-lesson mdl-card  mdl-shadow--2dp">
+                <div class="mdl-cell mdl-cell--12-col card-lesson mdl-card  mdl-shadow--2dp" id="rightBottom">
                   <div class="mdl-card__title mdl-color--red mdl-color-text--white">
                     <h2 class="mdl-card__title-text">State Map</h2>
                   </div>
