@@ -33,7 +33,7 @@
 33;North Carolina; Raleigh; Trump;Republican;10,042,802; 15
 34;North Dakota; Bismark;Trump;Republican; 756,927; 3
 35;Ohio; Columbus;Trump;Republican; 11,613,423; 18
-36;Oklahoma;Trump;Republican; Oklahoma City; 3,911,338; 7
+36;Oklahoma; Oklahoma City; Trump;Republican; 3,911,338; 7
 37;Oregon; Salem; Clinton;Democrat;4,028,977; 7
 38;Pennsylvania; Harrisburg;Trump;Republican; 12,802,503; 20
 39;Rhode Island;Providence; Clinton;Democrat;1,056,298; 4
@@ -45,6 +45,6 @@
 45;Vermont; Montpelier; Clinton;Democrat;626,042; 3
 46;Virginia; Richmond; Clinton;Democrat;8,382,993; 13
 47;Washington; Olympia; Clinton;Democrat;7,170,351; 12
-48;West Virginia; Trump;Republican;Charleston; 1,844,128; 5
+48;West Virginia; Charleston; Trump;Republican; 1,844,128; 5
 49;Wisconsin; Madison;Trump;Republican; 5,771,337; 10
 50;Wyoming; Cheyenne;Trump;Republican; 586,107; 3
