@@ -29,10 +29,12 @@ main header h4 {
 }
 
 #rightTop {
-  max-height: 400px;
+  margin-top: 1px;
+  max-height: 350px;
 }
 
 #rightBottom {
+  margin-top: -1020px;
   max-height: 600px;
 }
 

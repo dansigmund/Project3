@@ -79,7 +79,7 @@ $states = readStates('data/states.txt');
                 $candidate = $requestedState['candidate'];
                 $party = $requestedState['party'];
                 $numVotes = $requestedState['numVotes'];
-                $winPercent = "%" . $requestedState['winPercent'];
+                $winPercent = $requestedState['winPercent'] . "%";
                 $urlName = str_replace(" ", "+", $name);
                 $urlCapitol = str_replace(" ", "+", $capitol);
                 $mapURL = "https://maps.googleapis.com/maps/api/staticmap?center=$urlName&zoom=6&size=500x500&maptype=roadmap&region=US&markers=color:red%7C$urlCapitol&key=AIzaSyDgpfxdQ0Ep_nieNjV64u4yXWeSFHAT4BE";
