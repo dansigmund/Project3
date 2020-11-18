@@ -39,8 +39,8 @@ $states = readStates('data/states.txt');
                 <thead>
                   <tr>
                     <th class="mdl-data-table__cell--non-numeric">State</th>
-                    <th class="mdl-data-table__cell--non-numeric">Capitol</th>
-                    <th class="mdl-data-table__cell--non-numeric">Population</th>
+                    <th class="mdl-data-table__cell--non-numeric">Winning Candidate</th>
+                    <th class="mdl-data-table__cell--non-numeric">Political Party</th>
                     <th class="mdl-data-table__cell--non-numeric">Electoral Votes</th>
                   </tr>
                 </thead>
@@ -53,14 +53,14 @@ $states = readStates('data/states.txt');
                     $id = $state['id'];
                     $url = "index.php?state=$id";
                     $name = $state['name'];
-                    $capitol = $state['capitol'];
-                    $population = $state['population'];
+                    $candidate = $state['candidate'];
+                    $party = $state['party'];
                     $numVotes = $state['numVotes'];
 
                     echo '<tr>';
                     echo "<td class='mdl-data-table__cell--non-numeric'><a href=$url>$name</a></td>";
-                    echo "<td class='mdl-data-table__cell--non-numeric'>$capitol</td>";
-                    echo "<td class='mdl-data-table__cell--non-numeric'>$population</td>";
+                    echo "<td class='mdl-data-table__cell--non-numeric'>$candidate</td>";
+                    echo "<td class='mdl-data-table__cell--non-numeric'>$party</td>";
                     echo "<td class='mdl-data-table__cell--non-numeric'>$numVotes</td>";
                     echo '</tr>';
                   }
@@ -70,7 +70,7 @@ $states = readStates('data/states.txt');
               </table>
             </div>
           </div>
-          <div class="mdl-grid mdl-cell--5-col">
+          <div class="mdl-grid mdl-cell--6-col">
             <?php
 
             if ($_SERVER['REQUEST_METHOD'] == 'GET') {
@@ -79,6 +79,8 @@ $states = readStates('data/states.txt');
                 $name = $requestedState['name'];
                 $capitol = $requestedState['capitol'];
                 $population = $requestedState['population'];
+                $candidate = $requestedState['candidate'];
+                $party = $requestedState['party'];
                 $numVotes = $requestedState['numVotes'];
             ?>
                 <div class="mdl-cell mdl-cell--12-col card-lesson mdl-card  mdl-shadow--2dp">
@@ -90,6 +92,8 @@ $states = readStates('data/states.txt');
                     <h4><?php echo "$name" ?></h4>
                     <?php echo "Capitol: $capitol" ?><br>
                     <?php echo "Population: $population" ?><br>
+                    <?php echo "Winning Candidate: $candidate" ?><br>
+                    <?php echo "Political Party: $party" ?><br>
                     <?php echo "Electoral College Votes: $numVotes" ?>
 
                   </div>
@@ -102,7 +106,7 @@ $states = readStates('data/states.txt');
                   <div class="mdl-card__supporting-text">
                     <?php
 
-                    $orders = readOrders($_GET['customer'], 'data/orders.txt');
+                    $orders = readOrders($_GET['state'], 'data/orders.txt');
                     if (is_null($orders)) {
                       echo 'No orders for ' . $requestedCustomer['name'];
                     } else {
