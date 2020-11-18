@@ -30,7 +30,6 @@ main header h4 {
 
 .card-lesson>.mdl-card__actions {
   display: flex;
-  flex-wrap: wrap;
   box-sizing: border-box;
   align-items: center;
 }
